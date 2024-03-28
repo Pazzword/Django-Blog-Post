@@ -55,13 +55,14 @@ h4 {
 .post > .date,
 .post > .actions {
     float: right;
+    margin-right: 3%;
 }
 
 .btn-secondary,
 .btn-secondary:visited {
     color: #C25100;
     background: none;
-    border-color: #C25100;
+
 }
 
 .btn-secondary:hover {

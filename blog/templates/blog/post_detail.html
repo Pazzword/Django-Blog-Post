@@ -1,7 +1,14 @@
+
 {% extends 'blog/base.html' %}
+{% load static %}
 
 {% block content %}
     <article class="post">
+        <aside class="actions">
+            <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
+                <img src="{% static 'icons/pencil.png' %}" alt="Pencil Icon" style="width: 40%; border-image: none;">
+            </a>
+        </aside>
         {% if post.published_date %}
             <time class="date">
                 {{ post.published_date }}
