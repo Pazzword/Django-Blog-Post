@@ -1,6 +1,6 @@
 # Django Blog Application
 
-This is a simple blog application built using Django framework. It allows users to create, edit, and view blog posts.
+This is a simple blog application built using Python and Django framework for logical execution and HTML, CSS for a better visual appearance. It allows users to create, edit, and view blog posts.
 
 ## Features
 
@@ -14,7 +14,7 @@ This is a simple blog application built using Django framework. It allows users 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Pazzword/Django-Blog-Post.git
 
 2. Navigate to the project directory:
 
